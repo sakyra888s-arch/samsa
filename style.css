@@ -1,0 +1,72 @@
+/*Ура, мой первый коммит*/
+#title {
+	color: purple;
+	font-size: 40px;
+	text-align: center;
+	font-weight: normal;
+	}
+
+a:hover { /* При наведении*/
+	color:aquamarine;
+}
+a:active { /*При нажатии*/
+	color:blue; 
+}
+
+input:focus { /*Не вижу как он работает*/
+	color:rgb(172, 106, 234);
+}
+
+p::before {
+	content: "*";
+	color: gold;
+
+}
+
+p::after {
+	content: "✔";
+	color:rgb(43, 226, 61);
+}
+
+/*Заголовок 2 уровня уменьшаем*/
+h2 {
+	color: rgb(238, 3, 109);
+	font-size: 32px;
+	}
+/*Этот селектор отвечает за описания на сайте*/
+p {
+	color: rgb(162, 160, 160);
+	font-size: 12px;
+	font-weight: 300;
+	}
+/*Стилизуем по классам*/
+.hero {
+	color: rgb(191, 0, 255);
+	}
+	
+.cards {
+	text-align: center;
+	color:aqua;
+	font-weight: 600;
+}
+.contacts {
+	font-weight: 100;
+	font-style: normal;
+	color: black;
+}
+
+/*Соседи*/
+div > p {
+	font-weight: bold;
+}
+
+div p {
+	color: rgb(89, 129, 211);
+	font-size:50 px;
+}
+/*К гугл фонту как-то подключились!?*/
+body {
+	color: green;
+	font-family: 'Roboto', sans-serif;
+	font-size: 120%;
+}

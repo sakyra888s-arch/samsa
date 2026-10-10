@@ -5,11 +5,12 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Моя страница</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
       <!-- Шапочка-->
-      <h1>Сумайя</h1>
+      <h1 id="title">Сумайя</h1>
       <nav>
         <a href="#">Главная</a>
         <a href="#">Дашборд</a>
@@ -28,19 +29,20 @@
         <option>Крубника</option>
         <option>Банан</option>
         <option>Малина</option>
-      </select><br><br>
+      </select><br>
       <button>Нажми на меня</button><br>
-      
       <!-- Стилизация блоков-->
       <section class="cards">
         <div class="card">
           <h3>Первый блок</h3>
           <p>Его описание</p>
         </div>
+        
         <div class="card">
           <h3>Второй блок</h3>
           <p>Его описание</p>
-      </div>
+        </div>
+
         <div class="card">
           <h3>Третий блок</h3>
           <p>Его описание</p>
@@ -49,7 +51,7 @@
       <!-- Форма с контактами-->
       <section class="contacts">
       <form>
-        <h3>Контактные данные</h3>
+        <h3>Контактные данные</h3> <!--Я вот не понимаю как в теге ввода задавать класс. -->
         <label for="name">Ваше имя:</label>
         <input type="text" id="name" name="name" placeholder="Имя" required><br>
         <label for="email">Ваш email:</label>
